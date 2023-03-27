@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 80%;
+}
+.main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url("./img/Ekran\ Resmi\ 2023-03-26\ 17.56.25.png");
+    padding top: 500px;
+  background-size: cover;
+  text-align:center;
+  color: white;
+  height: 90vh;
+  font-family: "Audiowide", cursive;
+  font-size: 48px;
+}
+#header {
+  background-color: black;
+  border-bottom: 5px solid red;
+  height: 10rem;
+}
+span{
+  color: aliceblue;
+}
+#tuba h1 {
+  color: red;
+  font-family: "Audiowide", cursive;
+  font-size: 48px;
+}
+.container {
+    width: 80%;
+    height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 2.5rem;
+}
+nav a {
+  color: antiquewhite;
+  text-decoration: none;
+  margin: 3rem;
+  font-size: 24px;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+a:hover {
+  color: red;
+  font-size: 26px;
+}
+
+
+/*?============ ABOUT ===========*/
+
+h2{
+  color: red;
+  font-family:"Audiowide", cursive;
+  text-align: center;
+  margin-top: 110px;
+  font-size: 48px;
+}
+#header_about{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  background-color: darkgray;
+}
+#header_about a{
+  text-decoration: none;
+  font-size: 24px;
+  color: red;
+}
+
+
+/*?============ CONTACT ===========*/
+
+#contact{
+  display: block;
+  text-align: center;
+  justify-content: center;
+}
+#contact a{
+  color: aliceblue;
+  font-size: 24px;
+}
